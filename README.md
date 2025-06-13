@@ -1,7 +1,7 @@
-### Dreaming of a OBI gold
+### Dreaming of an OBI gold
 some pre-written code to save some time :)
-this will also contain solutions to my favorite problems
+this will also contain solutions of my favorite problems
 
 TODO: 
-- Write iterative Seg 3 and make templates cleaner
+- Write the iterative Seg 3 and make templates cleaner
 - more data structures coming in the future :))))
