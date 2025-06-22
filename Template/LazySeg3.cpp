@@ -6,7 +6,7 @@ struct Seg3 {
     Node seg3[4*MAXN];
     int lazy[4*MAXN];
     void flush(int i, int l, int r) {
-        seg3[i].v += lazy[i];
+        seg3[i].v += (r-l+1)*lazy[i];
         if (l != r) {
             lazy[2*i] += lazy[i];
             lazy[2*i+1] += lazy[i];
@@ -40,6 +40,7 @@ struct Seg3 {
         if (tr < l || tl > r) return;
         if (l>=tl && r <= tr) {
             lazy[i] += x;
+            flush(i,l,r);
             return;
         }
         int mid =(l+r)>>1;
