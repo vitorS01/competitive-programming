@@ -4,4 +4,4 @@ this will also contain solutions of my favorite problems
 
 TODO: 
 - create my own modint struct
-- more data structures coming in the future :))))
+- Improve Seg3 implementation
