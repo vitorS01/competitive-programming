@@ -5,3 +5,5 @@ this will also contain solutions of my favorite problems
 TODO: 
 - create my own modint struct
 - Improve Seg3 implementation
+
+- custom Hash: https://codeforces.com/blog/entry/62393
